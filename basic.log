@@ -1,0 +1,54 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 865-730-400
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 14:00:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 14:00:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 14:00:20] "GET /search?s=ага HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 14:00:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/home/ilya/Рабочий стол/SkyPro/12.2 урок (POST запросы,блупринт)/v.1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 865-730-400
+INFO:werkzeug: * Detected change in '/home/ilya/Рабочий стол/SkyPro/12.2 урок (POST запросы,блупринт)/v.1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 865-730-400
+INFO:werkzeug: * Detected change in '/home/ilya/Рабочий стол/SkyPro/12.2 урок (POST запросы,блупринт)/v.1/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 865-730-400
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 865-730-400
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 14:15:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 14:15:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ERROR:root:вы ввели пустое поле на поиск
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 14:15:17] "GET /search?s= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 14:15:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 14:15:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ERROR:root:вы ввели пустое поле на поиск
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 14:15:20] "GET /search?s= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 14:15:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 14:15:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ERROR:root:вы ввели пустое поле на поиск
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 14:15:22] "GET /search?s= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 14:15:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 14:15:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 14:15:25] "GET /loader/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 14:15:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ERROR:root:Файл или комментарий не загружены
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 14:15:27] "POST /uploads HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 14:15:30] "GET /loader/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 14:15:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ERROR:root:Файл или комментарий не загружены
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 14:15:35] "POST /uploads HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 14:15:37] "GET /loader/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 14:15:37] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 14:15:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 14:15:39] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ERROR:root:вы ввели пустое поле на поиск
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 14:15:41] "GET /search?s= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 14:15:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Mar/2022 14:15:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Все посты найденные по запросу: {{search}}</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+<main>
+
+    <a href="/" class="link">Назад</a>
+
+    <h1>Посты по запросу "{{search}}"</h1>
+    {% if posts_list == 1 %}
+        <p>Совпадений слов не найдено, вернитесь назад и попробуйте заново</p>
+    {% else %}
+        {% for post in posts_list%}
+            <div class="post">
+                <img src={{post['pic']}} width="100%" alt="">
+                <p>{{post['content']}} </p>
+            </div>
+            <hr>
+        {% endfor %}
+    {% endif %}
+
+    <a href="/loader/" class="button">Добавить пост</a>
+
+</main>
+</body>
+</html>
